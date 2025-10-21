@@ -1,8 +1,8 @@
 package funcionario;
 public class Funcionario {
-    private String nome;
-    private int idade;
-    private String corHair;
+    protected String nome;
+    protected int idade;
+    protected String corHair;
 
     public Funcionario(String nome, int idade, String corHair){
         this.nome=nome;

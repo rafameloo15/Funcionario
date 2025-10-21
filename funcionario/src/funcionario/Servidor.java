@@ -1,7 +1,8 @@
-package funcionario; 
-public class Professores extends Funcionario {
+package funcionario;
 
-public Professores(String nome, int idade, String corHair){
+public class Servidor extends Funcionario {
+
+public Servidor(String nome, int idade, String corHair){
     super(nome, idade, corHair);{}}
 
     public String getNome(){
@@ -12,7 +13,7 @@ public Professores(String nome, int idade, String corHair){
         this.nome=nome;
     }
 
-    public int getIdade(){
+    public int  getIdade(){
         return idade;
     }
 
@@ -28,13 +29,13 @@ public Professores(String nome, int idade, String corHair){
         this.corHair=corHair;
     }
 
-    public void idade(){
-        System.out.println(nome + " tem a idade de: " + idade);
+    public void cabelo(){
+        System.out.println(nome + " tem o cabelo da cor: " + corHair);
     }
 
     @Override
     public void trabalho(){
-        System.out.println(nome + " está trabalhando na instituição há 20 anos.");
+        System.out.println(nome + " está trabalhando com muita alegria.");
     }{ 
 }
 
